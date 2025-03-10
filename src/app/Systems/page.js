@@ -182,27 +182,27 @@ export default function SystemsPage() {
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/mulch2.webp"
+                src="/img/img25.webp"
                 alt="Rubber Mulch 2"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/mulch3.webp"
+                src="/img/img26.webp"
                 alt="Rubber Mulch 3"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/mulch4.webp"
+                src="/img/img27.webp"
                 alt="Rubber Mulch 4"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/mulch5.webp"
+                src="/img/img28.webp"
                 alt="Rubber Mulch 5"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/mulch6.webp"
+                src="/img/img29.webp"
                 alt="Rubber Mulch 6"
                 className="rounded-lg shadow-lg"
               />
