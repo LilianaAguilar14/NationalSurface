@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jcsafety-surfacing.com
+
+# Sitemaps
+Sitemap: https://jcsafety-surfacing.com/sitemap.xml
