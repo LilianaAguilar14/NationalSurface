@@ -2,35 +2,6 @@
 import { useState } from "react";
 import Navbar from "../../componets/NavBar";
 import Footer from "../../componets/Footer";
-
-export const metadata = {
-  title: "Contact Us | JC Safety Surfacing - Playground Safety Experts",
-  description:
-    "Get in touch with JC Safety Surfacing for expert poured-in-place rubber playground surfacing solutions. Call, email, or fill out our contact form today.",
-  keywords:
-    "contact JC Safety Surfacing, playground surfacing experts, poured-in-place rubber, rubber flooring contact, playground safety contact, rubber surfaces installer",
-  openGraph: {
-    title: "Contact JC Safety Surfacing",
-    description:
-      "Contact JC Safety Surfacing today for professional playground surfacing solutions, tailored to your safety and design needs.",
-    images: [
-      {
-        url: "/img/img11.webp",
-        width: 1200,
-        height: 630,
-        alt: "JC Safety Surfacing Contact",
-      },
-    ],
-  },
-  alternates: {
-    canonical: "https://www.jcsafety-surfacing.com/contact",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
-
 export default function Contact() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
