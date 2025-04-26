@@ -16,7 +16,7 @@ export default function HomePage() {
           <div className="lg:w-1/2 flex justify-start">
             <div className="relative">
               <img
-                src="/img/img2.webp"
+                src="/img/img2.jpg"
                 alt="Playground Surface"
                 className="rounded-lg shadow-lg"
               />
@@ -29,7 +29,7 @@ export default function HomePage() {
               Safe, fun, and engaging play areas designed for active recreation
             </h1>
             <p className="text-lg text-blue-950 mb-6">
-              Secure and joyful play areas: National Safety Surfaces where
+              Secure and joyful play areas: JC Safety Surfacing where
               innovation and protection come together in every layer.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function HomePage() {
       <section className="bg-white py-5">
         <div className="container mx-auto px-6">
           <p className="text-lg text-gray-600 mb-6">
-            At National Safety Surfaces, we understand our role in the
+            At JC Safety Surfacing, we understand our role in the
             playground and recreation surfacing industry: deliver a beautiful,
             durable, safe, and versatile surface for playgrounds, splash pads,
             fitness trails, jogging or walking paths, or other indoor/outdoor
@@ -104,7 +104,7 @@ export default function HomePage() {
               Brilliant Design From Start to Finish
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              National Safety Surfaces is your premier nationwide
+            JC Safety Surfacing is your premier nationwide
               industry-leading authority for all your commercial playground
               surfacing, sports surfacing, and recreational surfacing needs.
               With 10 years of playground safety surfacing experience, our

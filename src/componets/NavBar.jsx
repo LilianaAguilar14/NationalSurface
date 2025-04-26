@@ -13,11 +13,11 @@ const Navbar = () => {
         <div className="flex items-center">
          
           <img
-            src="/img/logo.png" 
+            src="/img/logo2.png" 
             alt="Logo"
             className="h-24"
           />
-          <h2 className="text-white text-xl">National Safety Surfaces</h2>
+          <h2 className="text-white text-xl">JC Safety Surfacing</h2>
         </div>
 
         

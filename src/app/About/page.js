@@ -11,10 +11,10 @@ export default function About() {
         <div className="container mx-auto px-6 flex flex-col lg:flex-row lg:space-x-12 items-center">
           <div className="lg:w-1/2 mb-12 lg:mb-0">
             <h1 className="text-4xl font-bold text-[#4eb3d1] mb-4">
-              National Safety Surfaces: Redefining Safe and Fun Playgrounds
+            JC Safety Surfacing: Redefining Safe and Fun Playgrounds
             </h1>
             <p className="text-lg text-gray-700 mb-6">
-              At National Safety Surfaces, we stand as pioneers in the
+              At JC Safety Surfacing, we stand as pioneers in the
               manufacturing and installation of rubberized playground safety
               surfacing.
             </p>
@@ -107,7 +107,7 @@ export default function About() {
                 Seamless Project Management
               </h3>
               <p className="text-gray-700">
-                National Safety Surfaces excels in project management by
+                JC Safety Surfacing excels in project management by
                 staying on top of every detail from bid and specification
                 through construction and closeout to carefully adhering to
                 schedules and budgets. We confidently guarantee our work because
@@ -135,7 +135,7 @@ export default function About() {
         Sustainability Matters
       </h2>
       <p className="text-lg text-gray-700 mb-6">
-        National Safety Surfaces adheres to the Consumer Product Safety
+        JC Safety Surfacing adheres to the Consumer Product Safety
         Commission’s guidelines for public playgrounds. We also perform
         continual testing on all raw materials used in our systems for
         quality, properties, and strength. Our commitment to sustainability

@@ -10,7 +10,7 @@ export default function Clients() {
       <section className="bg-white py-16">
         <div className="container mx-auto px-6 text-center mt-24">
           <h1 className="text-4xl font-bold text-[#4eb3d1] mb-4">
-            Recreational Surfacing INC Clients
+          JC Safety Surfacing Clients
           </h1>
          
         </div>
@@ -31,7 +31,7 @@ export default function Clients() {
             <p className="text-gray-700">
               With a rich history of installing thousands of playground and play
               area safety surfacing systems across the western United States,
-              Recreational Surfacing INC stands as a reliable name in the
+              JC Safety Surfacing stands as a reliable name in the
               industry. Our commitment to excellence is evident in every aspect
               of our work, from the quality of materials we use to the
               efficiency of our installations.
@@ -48,13 +48,13 @@ export default function Clients() {
               For Architects & Planners
             </h3>
             <p className="text-gray-700">
-              Recreational Surfacing INC is a trusted partner to architects and
+              JC Safety Surfacing is a trusted partner to architects and
               municipal planners who want to add design and inspiration to
               rubberized playground safety surfacing. Our experienced installers
               know how to make a rubber playground safety surface come alive!
               More importantly, our quality installations last. We use the best
               materials, so our rubber play surfaces are clean, safe, and made
-              to last. Recreational Surfacing INC comes in many colors, and we
+              to last. JC Safety Surfacing comes in many colors, and we
               have actual material samples and attractive literature you can use
               to make presentations.
             </p>
@@ -70,7 +70,7 @@ export default function Clients() {
               For Developers
             </h3>
             <p className="text-gray-700">
-              Recreational Surfacing INC is a trusted partner to developers who
+              JC Safety Surfacing is a trusted partner to developers who
               want to create vibrant, functional, and durable outdoor spaces. We
               offer a wide variety of materials, colors, and designs that meet
               all safety and aesthetic requirements. Our team ensures seamless
@@ -83,8 +83,8 @@ export default function Clients() {
       <section className="bg-white py-16">
         <div className="container mx-auto px-6 text-center mt-2">
           <p className="text-lg text-gray-600 mb-6">
-            As the premier provider of safety playground and recreational
-            surfacing solutions in the United States, Recreational Surfacing INC
+            As the premier provider of safety playground and JC Safety Surfacing
+            solutions in the United States,JC Safety Surfacing
             is committed to crafting exceptional, safe, and enduring outdoor
             environments nationwide. We prioritize being leaders in delivering
             premier solutions for outdoor spaces, acknowledging the significance

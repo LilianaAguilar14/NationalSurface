@@ -73,7 +73,7 @@ export default function Contact() {
             Contact
           </h1>
           <p className="text-lg text-gray-700 text-center mb-8">
-            Thank you for your interest in National Safety Surfaces INC! We would
+            Thank you for your interest in JC Safety Surfacing! We would
             love to talk to you about your upcoming project or any questions you
             might have about our products. Feel free to give us a call or
             complete the form below.
@@ -83,10 +83,10 @@ export default function Contact() {
             {/* Columna de datos y mapa */}
             <div className="text-center md:text-left">
               <h2 className="text-xl font-bold text-black mb-4">
-              National Safety Surfaces
+              JC Safety Surfacing
               </h2>
               <p className="text-gray-700">
-                166 Broadway, Greenlawn, New York 11740
+              252 Maple Place, Mineola, New York 11501
               </p>
               <p className="text-gray-700">
                 Phone: <a href="tel:+15162427155">(516) 242-7155</a>
@@ -97,7 +97,7 @@ export default function Contact() {
                   href="Recreationalsurfacinginc@gmail.com"
                   className="text-blue-500 underline"
                 >
-                 nationalsurfacesinc@gmail.com
+                 info.jcsafetysurfacing@gmail.com
                 </a>
               </p>
 

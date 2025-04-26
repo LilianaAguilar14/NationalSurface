@@ -57,12 +57,12 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               <img
-                src="/img/img1.webp"
+                src="/img/poured1.jpg"
                 alt="Gallery Image 1"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/img2.webp"
+                src="/img/pored2.jpg"
                 alt="Gallery Image 2"
                 className="rounded-lg shadow-lg"
               />
@@ -77,12 +77,12 @@ export default function SystemsPage() {
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/img10.webp"
+                src="/img/poured5.jpg"
                 alt="Gallery Image 5"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/img11.webp"
+                src="/img/poured6.JPG"
                 alt="Gallery Image 6"
                 className="rounded-lg shadow-lg"
               />
@@ -216,7 +216,7 @@ export default function SystemsPage() {
               Equipment Installation
             </h2>
             <p className="text-gray-700 mb-4">
-              Recreational Surfacing Inc. specializes in the professional
+            JC Safety Surfacing. specializes in the professional
               installation of equipment for playgrounds, fitness areas, and
               indoor/outdoor recreational spaces. Our team ensures the proper
               and safe setup of all equipment and high-quality surfacing to meet
@@ -233,12 +233,12 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               <img
-                src="/img/equi1.webp"
+                src="/img/equi1.jpg"
                 alt="Equipment Installation 1"
                 className="rounded-lg shadow-lg"
               />
               <img
-                src="/img/equi2.webp"
+                src="/img/equi2.JPG"
                 alt="Equipment Installation 2"
                 className="rounded-lg shadow-lg"
               />

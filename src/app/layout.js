@@ -12,21 +12,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "National Safety Surfaces | Safety Surfaces for Playgrounds",
-  description: "Explore National Safety Surfaces, leaders in safety surfaces for playgrounds and recreational areas. Durable, safe, and customizable solutions.",
+  title: "JC Safety Surfacing| Safety Surfaces for Playgrounds",
+  description: "Explore JC Safety Surfacing, leaders in safety surfaces for playgrounds and recreational areas. Durable, safe, and customizable solutions.",
   icons: {
     icon: "/favicon.ico", 
   },
   openGraph: {
-    title: "National Safety Surfaces",
+    title: "JC Safety Surfacing",
     description: "Leaders in safety surfaces for playgrounds and recreational areas.",
     url: "https://www.nationalsafetysurfaces.com",
     images: [
       {
-        url: "img/logo.png", 
+        url: "img/logo2.png", 
         width: 1200,
         height: 630,
-        alt: "National Safety Surfaces - Playground Surfaces",
+        alt: "JC Safety Surfacing - Playground Surfaces",
       },
     ],
   },
