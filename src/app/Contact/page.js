@@ -188,7 +188,7 @@ export default function Contact() {
                     type="text"
                     id="firstName"
                     placeholder="First Name"
-                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     required
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
@@ -206,7 +206,7 @@ export default function Contact() {
                     type="text"
                     id="lastName"
                     placeholder="Last Name"
-                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     required
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
@@ -224,7 +224,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     placeholder="Email"
-                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -242,7 +242,7 @@ export default function Contact() {
                     type="tel"
                     id="phone"
                     placeholder="Phone"
-                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full mt-2 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-600"
                     required
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
@@ -251,7 +251,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="bg-[#4eb3d1] text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition w-full"
+                  className="bg-[#4eb3d1] text-white font-bold py-2 px-4 rounded-lg hover:bg-cyan-600 transition w-full"
                 >
                   Send
                 </button>
