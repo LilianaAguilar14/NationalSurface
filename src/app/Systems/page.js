@@ -1,9 +1,8 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+
 import Navbar from "../../componets/NavBar";
 import Footer from "../../componets/Footer";
-
 
 
 export default function SystemsPage() {
