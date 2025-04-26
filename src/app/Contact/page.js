@@ -3,11 +3,39 @@ import { useState } from "react";
 import Navbar from "../../componets/NavBar";
 import Footer from "../../componets/Footer";
 
+export const metadata = {
+  title: "Contact Us | JC Safety Surfacing - Playground Safety Experts",
+  description:
+    "Get in touch with JC Safety Surfacing for expert poured-in-place rubber playground surfacing solutions. Call, email, or fill out our contact form today.",
+  keywords:
+    "contact JC Safety Surfacing, playground surfacing experts, poured-in-place rubber, rubber flooring contact, playground safety contact, rubber surfaces installer",
+  openGraph: {
+    title: "Contact JC Safety Surfacing",
+    description:
+      "Contact JC Safety Surfacing today for professional playground surfacing solutions, tailored to your safety and design needs.",
+    images: [
+      {
+        url: "/img/img11.webp",
+        width: 1200,
+        height: 630,
+        alt: "JC Safety Surfacing Contact",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.jcsafety-surfacing.com/contact",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function Contact() {
   const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName]   = useState("");
-  const [email, setEmail]         = useState("");
-  const [phone, setPhone]         = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,11 +44,11 @@ export default function Contact() {
       alert("All fields are required.");
       return;
     }
-    
+
     const subject = `New Contact: ${firstName} ${lastName}`;
     const text = `
       The client ${firstName} ${lastName} wants to get in touch with you.
-    
+
       Here are their contact details:
       - Email: ${email}
       - Phone: ${phone}
@@ -33,7 +61,7 @@ export default function Contact() {
         <li><strong>Phone:</strong> ${phone}</li>
       </ul>
     `;
-    
+
     try {
       const response = await fetch("/api/sendEmail", {
         method: "POST",
@@ -42,16 +70,16 @@ export default function Contact() {
         },
         body: JSON.stringify({ subject, text, html }),
       });
-    
+
       if (!response.ok) {
         const errorData = await response.json();
         alert(`Error sending email: ${errorData.error}`);
         return;
       }
-    
+
       const data = await response.json();
-      alert(data.message); 
-    
+      alert(data.message);
+
       setFirstName("");
       setLastName("");
       setEmail("");
@@ -60,19 +88,45 @@ export default function Contact() {
       console.error(error);
       alert("An error occurred while sending the email.");
     }
-    
   };
 
   return (
-    <div>
+    <div itemScope itemType="https://schema.org/ContactPage">
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.jcsafety-surfacing.com/contact",
+          },
+          "headline": "Contact JC Safety Surfacing",
+          "description":
+            "Reach out to JC Safety Surfacing to discuss your playground surfacing needs. Experts in poured-in-place rubber safety surfaces.",
+          "image": "/img/img11.webp",
+          "author": {
+            "@type": "Organization",
+            "name": "JC Safety Surfacing",
+            "logo": "/img/logo.png",
+          },
+          "datePublished": "2023-01-01",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-516-242-7155",
+            "contactType": "customer support",
+            "email": "info.jcsafetysurfacing@gmail.com",
+          },
+        })}
+      </script>
+
       <Navbar />
 
-      <section className="bg-white py-20 mt-24">
+      <section className="bg-white py-20 mt-24" itemProp="mainContentOfPage">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl font-bold text-black text-center mb-8">
+          <h1 className="text-4xl font-bold text-black text-center mb-8" itemProp="headline">
             Contact
           </h1>
-          <p className="text-lg text-gray-700 text-center mb-8">
+          <p className="text-lg text-gray-700 text-center mb-8" itemProp="description">
             Thank you for your interest in JC Safety Surfacing! We would
             love to talk to you about your upcoming project or any questions you
             might have about our products. Feel free to give us a call or
@@ -81,27 +135,29 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Columna de datos y mapa */}
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left" itemProp="hasPart">
               <h2 className="text-xl font-bold text-black mb-4">
-              JC Safety Surfacing
+                JC Safety Surfacing
               </h2>
               <p className="text-gray-700">
-              252 Maple Place, Mineola, New York 11501
+                252 Maple Place, Mineola, New York 11501
               </p>
               <p className="text-gray-700">
-                Phone: <a href="tel:+15162427155">(516) 242-7155</a>
+                Phone:{" "}
+                <a href="tel:+15162427155" className="text-blue-500 underline">
+                  (516) 242-7155
+                </a>
               </p>
               <p className="text-gray-700">
                 Email:{" "}
                 <a
-                  href="Recreationalsurfacinginc@gmail.com"
+                  href="mailto:info.jcsafetysurfacing@gmail.com"
                   className="text-blue-500 underline"
                 >
-                 info.jcsafetysurfacing@gmail.com
+                  info.jcsafetysurfacing@gmail.com
                 </a>
               </p>
 
-              {/* Map */}
               <div className="mt-8">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1816823345967!2d-73.36748358458595!3d40.872098979315105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e82937e882a47f%3A0x2c646df5a6d3d597!2s166%20Broadway%2C%20Greenlawn%2C%20NY%2011740%2C%20USA!5e0!3m2!1sen!2ses!4v1687590903210!5m2!1sen!2ses"
@@ -119,6 +175,7 @@ export default function Contact() {
               <form
                 onSubmit={handleSubmit}
                 className="bg-gray-50 p-6 rounded-lg shadow-lg"
+                itemProp="potentialAction"
               >
                 <div className="mb-4">
                   <label
@@ -194,7 +251,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="bg-[#4eb3d1]  text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition w-full"
+                  className="bg-[#4eb3d1] text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition w-full"
                 >
                   Send
                 </button>
