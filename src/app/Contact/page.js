@@ -160,7 +160,7 @@ export default function Contact() {
 
               <div className="mt-8">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1816823345967!2d-73.36748358458595!3d40.872098979315105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e82937e882a47f%3A0x2c646df5a6d3d597!2s166%20Broadway%2C%20Greenlawn%2C%20NY%2011740%2C%20USA!5e0!3m2!1sen!2ses!4v1687590903210!5m2!1sen!2ses"
+                  src="https://www.google.com/maps?q=252+Maple+Place,+Mineola,+New+York+11501&output=embed"
                   width="100%"
                   height="300"
                   allowFullScreen=""
