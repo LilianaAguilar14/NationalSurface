@@ -17,7 +17,7 @@ const Navbar = () => {
             alt="Logo"
             className="h-24"
           />
-          <h2 className="text-white text-xl">JC Safety Surfacing</h2>
+          <h2 className="text-white text-3xl">J C Safety Surfacing</h2>
         </div>
 
         
