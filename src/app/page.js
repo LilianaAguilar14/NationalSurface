@@ -118,7 +118,7 @@ export default function HomePage() {
           {/* Imagen alineada a la derecha */}
           <div className="lg:w-1/2 flex justify-end">
             <img
-              src="/img/img11.webp"
+              src="/img/homefinal.JPG"
               alt="Design Process"
               className="rounded-lg shadow-lg w-full lg:w-3/4 object-cover"
             />
