@@ -175,7 +175,7 @@ export default function SystemsPage() {
               outlined in ASTM F-1292-96 and ASTM F-1951-99. It also adheres to
               standard specifications for Impact Attenuation of Surface Systems
               under and around playground equipment. Rest assured that when you
-              choose Bonded Rubber Mulch, you're selecting a surface that not
+              choose Bonded Rubber Mulch, you&apos;re selecting a surface that not
               only enhances the aesthetics of your space but also prioritizes
               the safety and well-being of those who play and walk on it.
             </p>
