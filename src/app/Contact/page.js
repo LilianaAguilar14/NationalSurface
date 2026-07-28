@@ -74,18 +74,18 @@ export default function Contact() {
           "headline": "Contact JC Safety Surfacing",
           "description":
             "Reach out to JC Safety Surfacing to discuss your playground surfacing needs. Experts in poured-in-place rubber safety surfaces.",
-          "image": "/img/img11.webp",
+          "image": "/img/shared/img11.webp",
           "author": {
             "@type": "Organization",
             "name": "JC Safety Surfacing",
-            "logo": "/img/logo.png",
+            "logo": "/img/shared/logo.png",
           },
           "datePublished": "2023-01-01",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+1-516-242-7155",
             "contactType": "customer support",
-            "email": "info.jcsafetysurfacing@gmail.com",
+            "email": "info.jcsurfacing@gmail.com",
           },
         })}
       </script>
@@ -122,10 +122,10 @@ export default function Contact() {
               <p className="text-gray-700">
                 Email:{" "}
                 <a
-                  href="mailto:info.jcsafetysurfacing@gmail.com"
+                  href="mailto:info.jcsurfacing@gmail.com"
                   className="text-blue-500 underline"
                 >
-                  info.jcsafetysurfacing@gmail.com
+                  info.jcsurfacing@gmail.com
                 </a>
               </p>
 

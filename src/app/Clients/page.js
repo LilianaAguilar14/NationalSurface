@@ -14,7 +14,7 @@ export const metadata = {
       "Discover how JC Safety Surfacing collaborates with schools, planners, and developers to create safe and durable outdoor environments across the U.S.",
     images: [
       {
-        url: "/img/img11.webp",
+        url: "/img/shared/img11.webp",
         width: 1200,
         height: 630,
         alt: "JC Safety Surfacing for Schools and Developers",
@@ -44,11 +44,11 @@ export default function Clients() {
           "headline": "JC Safety Surfacing Clients",
           "description":
             "Proudly partnering with schools, developers, and architects to deliver safe and beautiful playground surfaces across the U.S.",
-          "image": "/img/img11.webp",
+          "image": "/img/shared/img11.webp",
           "author": {
             "@type": "Organization",
             "name": "JC Safety Surfacing",
-            "logo": "/img/logo.png",
+            "logo": "/img/shared/logo.png",
           },
           "datePublished": "2023-01-01",
         })}
@@ -74,7 +74,7 @@ export default function Clients() {
             itemProp="hasPart"
           >
             <img
-              src="/img/img11.webp"
+              src="/img/shared/img11.webp"
               alt="For School Administrators"
               className="mx-auto mb-4"
               loading="lazy"
@@ -98,7 +98,7 @@ export default function Clients() {
             itemProp="hasPart"
           >
             <img
-              src="/img/img4.webp"
+              src="/img/shared/img4.webp"
               alt="For Architects & Planners"
               className="mx-auto mb-4"
               loading="lazy"
@@ -120,7 +120,7 @@ export default function Clients() {
             itemProp="hasPart"
           >
             <img
-              src="/img/img15.webp"
+              src="/img/shared/img15.webp"
               alt="For Developers"
               className="mx-auto mb-4"
               loading="lazy"

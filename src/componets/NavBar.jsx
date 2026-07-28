@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center">
          
           <img
-            src="/img/logo2.png" 
+            src="/img/shared/logo2.png"
             alt="Logo"
             className="h-24"
           />

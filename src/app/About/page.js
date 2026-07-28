@@ -14,7 +14,7 @@ export const metadata = {
       "Industry leaders in rubberized playground surfacing, delivering safe and sustainable play environments.",
     images: [
       {
-        url: "/img/img10.webp",
+        url: "/img/about/img10.webp",
         width: 1200,
         height: 630,
         alt: "JC Safety Surfacing Playground Safety",
@@ -44,11 +44,11 @@ export default function About() {
           headline: "About JC Safety Surfacing",
           description:
             "Since 2003, JC Safety Surfacing has installed safe, ADA-compliant playground surfaces using high-quality and eco-friendly materials.",
-          image: "/img/img10.webp",
+          image: "/img/about/img10.webp",
           author: {
             "@type": "Organization",
             name: "JC Safety Surfacing",
-            logo: "/img/logo.png",
+            logo: "/img/shared/logo.png",
           },
           datePublished: "2023-01-01",
         })}
@@ -79,7 +79,7 @@ export default function About() {
           </div>
           <div className="lg:w-1/2 flex justify-center">
             <img
-              src="/img/img10.webp"
+              src="/img/about/img10.webp"
               alt="Playground Safety"
               className="rounded-lg shadow-lg w-4/5 lg:w-full"
               loading="lazy"
@@ -93,7 +93,7 @@ export default function About() {
         <div className="container mx-auto px-6 flex flex-col lg:flex-row lg:space-x-12 items-center">
           <div className="lg:w-1/2 flex justify-center mb-12 lg:mb-0">
             <img
-              src="/img/values.webp"
+              src="/img/about/values.webp"
               alt="Core Values"
               className="rounded-lg w-4/5 lg:w-full"
               loading="lazy"
@@ -182,8 +182,8 @@ export default function About() {
         <div className="container mx-auto px-6 flex flex-col lg:flex-row lg:items-center lg:space-x-12">
           <div className="lg:w-1/2 flex justify-center mb-8 lg:mb-0">
             <img
-              src="/img/img15.webp"
-              alt="Sustainability"
+              src="/img/about/sustainability-playground.webp"
+              alt="Sustainable playground surface"
               className="rounded-lg shadow-lg w-4/5 lg:w-full"
               loading="lazy"
             />

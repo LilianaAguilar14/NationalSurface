@@ -16,7 +16,7 @@ export default function HomePage() {
           <div className="lg:w-1/2 flex justify-start">
             <div className="relative">
               <img
-                src="/img/img2.jpg"
+                src="/img/home/img2.jpg"
                 alt="Playground Surface"
                 className="rounded-lg shadow-lg"
               />
@@ -49,22 +49,22 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                src: "/img/img6.webp",
+                src: "/img/home/img6.webp",
                 title: "Poured-In-Place Rubber",
                 link: "/Systems#poured-in-place",
               },
               {
-                src: "/img/img7.webp",
+                src: "/img/home/img7.webp",
                 title: "Synthetic Turf",
                 link: "/Systems#artificial-turf",
               },
               {
-                src: "/img/img8.webp",
+                src: "/img/home/img8.webp",
                 title: "Bonded Rubber Mulch",
                 link: "/Systems#bonded-rubber-mulch",
               },
               {
-                src: "/img/img9.webp",
+                src: "/img/home/img9.webp",
                 title: "Equipment Installation",
                 link: "/Systems#critical-fall-heights",
               },
@@ -118,7 +118,7 @@ export default function HomePage() {
           {/* Imagen alineada a la derecha */}
           <div className="lg:w-1/2 flex justify-end">
             <img
-              src="/img/homefinal.JPG"
+              src="/img/home/homefinal.JPG"
               alt="Design Process"
               className="rounded-lg shadow-lg w-full lg:w-3/4 object-cover"
             />

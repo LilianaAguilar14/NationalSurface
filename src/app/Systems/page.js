@@ -59,16 +59,16 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                "poured1.jpg",
-                "pored2.jpg",
-                "img3.webp",
-                "img4.webp",
-                "poured5.jpg",
-                "poured6.JPG",
+                "/img/systems/poured-in-place/poured1.jpg",
+                "/img/systems/poured-in-place/pored2.jpg",
+                "/img/systems/poured-in-place/img3.webp",
+                "/img/systems/poured-in-place/poured-in-place-4.webp",
+                "/img/systems/poured-in-place/poured5.jpg",
+                "/img/systems/poured-in-place/poured-in-place-6.webp",
               ].map((file, i) => (
                 <img
                   key={i}
-                  src={`/img/${file}`}
+                  src={file}
                   alt={`Gallery Image ${i + 1}`}
                   className={imageClasses}
                   loading="lazy"
@@ -124,16 +124,16 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                "img20.webp",
-                "img21.webp",
-                "img23.webp",
-                "img22.webp",
-                "img19.webp",
-                "img5.webp",
+                "/img/systems/synthetic-turf/img20.webp",
+                "/img/systems/synthetic-turf/img21.webp",
+                "/img/systems/synthetic-turf/img23.webp",
+                "/img/systems/synthetic-turf/synthetic-turf-4.webp",
+                "/img/systems/synthetic-turf/img19.webp",
+                "/img/systems/synthetic-turf/synthetic-turf-6.webp",
               ].map((file, i) => (
                 <img
                   key={i}
-                  src={`/img/${file}`}
+                  src={file}
                   alt={`Synthetic Turf ${i + 1}`}
                   className={imageClasses}
                   loading="lazy"
@@ -199,16 +199,16 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                "img24.webp",
-                "img25.webp",
-                "img26.webp",
-                "img27.webp",
-                "img28.webp",
-                "img29.webp",
+                "/img/systems/bonded-rubber-mulch/img24.webp",
+                "/img/systems/bonded-rubber-mulch/img25.webp",
+                "/img/systems/bonded-rubber-mulch/img26.webp",
+                "/img/systems/bonded-rubber-mulch/img27.webp",
+                "/img/systems/bonded-rubber-mulch/img28.webp",
+                "/img/systems/bonded-rubber-mulch/img29.webp",
               ].map((file, i) => (
                 <img
                   key={i}
-                  src={`/img/${file}`}
+                  src={file}
                   alt={`Rubber Mulch ${i + 1}`}
                   className={imageClasses}
                   loading="lazy"
@@ -240,16 +240,16 @@ export default function SystemsPage() {
             <h3 className="text-lg font-bold text-blue-900 mb-4">Gallery</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                "equi1.jpg",
-                "equi2.JPG",
-                "equi3.webp",
-                "equi4.webp",
-                "equi5.webp",
-                "equi6.webp",
+                "/img/systems/equipment-installation/equipment-installation-1.webp",
+                "/img/systems/equipment-installation/equipment-installation-2.webp",
+                "/img/systems/equipment-installation/equipment-installation-3.webp",
+                "/img/systems/equipment-installation/equipment-installation-4.webp",
+                "/img/systems/equipment-installation/equipment-installation-5.webp",
+                "/img/systems/equipment-installation/equi6.webp",
               ].map((file, i) => (
                 <img
                   key={i}
-                  src={`/img/${file}`}
+                  src={file}
                   alt={`Equipment Installation ${i + 1}`}
                   className={imageClasses}
                   loading="lazy"
@@ -282,9 +282,9 @@ export default function SystemsPage() {
           </div>
           <div className="lg:w-1/2 text-center">
             <img
-              src="/img/img2.webp"
+              src="/img/systems/hero/img2.webp"
               alt="Safety Playground"
-              className="rounded-lg shadow-lg ml-6"
+              className="rounded-lg shadow-lg ml-0 lg:ml-6"
               loading="lazy"
             />
           </div>

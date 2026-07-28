@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://www.nationalsafetysurfaces.com",
     images: [
       {
-        url: "img/logo2.png", 
+        url: "/img/shared/logo2.png",
         width: 1200,
         height: 630,
         alt: "JC Safety Surfacing - Playground Surfaces",
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "National Safety Surfaces",
               url: "https://www.nationalsafetysurfaces.com",
-              logo: "https://www.nationalsafetysurfaces.com/logo.png",
+              logo: "https://www.nationalsafetysurfaces.com/img/shared/logo.png",
               sameAs: [
                 "https://www.facebook.com/nationalsafetysurfaces",
                 "https://www.twitter.com/nationalsafetysurfaces",
