@@ -4,13 +4,103 @@ import Link from "next/link";
 import Navbar from "../componets/NavBar";
 import Footer from "../componets/Footer";
 
+const featuredProjects = [
+  {
+    title: "Lauritzen Gardens",
+    location: "Omaha, Nebraska",
+    completion: "April 2025",
+    image: "/img/home/surface-america-projects/lauritzen-gardens.jpeg",
+    href: "https://www.surfaceamerica.com/lauritzen-gardens/",
+  },
+  {
+    title: "Mississippi Gateway Regional Park",
+    location: "Brooklyn Park, Minnesota",
+    completion: "June 2025",
+    image:
+      "/img/home/surface-america-projects/mississippi-gateway-regional-park.jpeg",
+    href: "https://www.surfaceamerica.com/mississippi-gateway-regional-park/",
+  },
+];
+
 export default function HomePage() {
   return (
     <div>
       <Navbar />
 
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#e8f7fb] via-white to-gray-50 pb-16 pt-40 sm:pb-20 sm:pt-44">
+        <div
+          className="absolute -right-24 top-24 h-72 w-72 rounded-full bg-[#4eb3d1]/10 blur-3xl"
+          aria-hidden="true"
+        />
+        <div className="container relative mx-auto px-6">
+          <div className="mb-10 max-w-3xl">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-cyan-700">
+              Featured installations
+            </p>
+            <h1 className="mb-4 text-3xl font-bold text-[#4eb3d1] sm:text-4xl lg:text-5xl">
+              Our Work with Surface America
+            </h1>
+            <p className="text-lg leading-relaxed text-blue-950">
+              Explore two recently completed PlayBound Poured-in-Place projects
+              installed by JC Safety Surfacing in collaboration with our
+              principal contractor, Surface America.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+            {featuredProjects.map((project) => (
+              <article
+                key={project.title}
+                className="group overflow-hidden rounded-2xl border border-cyan-100 border-t-4 border-t-[#4eb3d1] bg-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+              >
+                <a
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${project.title} project on Surface America`}
+                  className="block focus:outline-none focus-visible:ring-4 focus-visible:ring-[#4eb3d1]"
+                >
+                  <div className="h-64 overflow-hidden sm:h-80">
+                    <img
+                      src={project.image}
+                      alt={`${project.title} playground surfacing installed by JC Safety Surfacing`}
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-6 sm:p-8">
+                    <div className="mb-4 flex flex-wrap gap-2 text-sm font-medium text-gray-600">
+                      <span className="rounded-full bg-cyan-50 px-3 py-1 text-cyan-800">
+                        {project.location}
+                      </span>
+                      <span className="rounded-full bg-gray-100 px-3 py-1">
+                        Completed {project.completion}
+                      </span>
+                    </div>
+                    <h2 className="mb-2 text-2xl font-bold text-blue-950 transition group-hover:text-[#3193b0]">
+                      {project.title}
+                    </h2>
+                    <p className="mb-6 text-gray-600">
+                      PlayBound Poured-in-Place safety surfacing
+                    </p>
+                    <span className="inline-flex items-center gap-2 rounded-full bg-[#4eb3d1] px-5 py-2.5 font-semibold text-white transition group-hover:bg-cyan-700">
+                      View project on Surface America
+                      <span
+                        className="transition-transform group-hover:translate-x-1"
+                        aria-hidden="true"
+                      >
+                        &rarr;
+                      </span>
+                    </span>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Sección principal */}
-      <section className="bg-gray-50 pt-44 py-5">
+      <section className="bg-gray-50 py-10">
         <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
           {/* Imagen del lado izquierdo */}
           <div className="lg:w-1/2 flex justify-start">
@@ -25,9 +115,9 @@ export default function HomePage() {
 
           {/* Texto del lado derecho */}
           <div className="lg:w-1/2 text-left mb-8 lg:mb-0 lg:ml-8">
-            <h1 className="text-4xl font-semibold text-[#4eb3d1] mb-4">
+            <h2 className="text-4xl font-semibold text-[#4eb3d1] mb-4">
               Safe, fun, and engaging play areas designed for active recreation
-            </h1>
+            </h2>
             <p className="text-lg text-blue-950 mb-6">
               Secure and joyful play areas: JC Safety Surfacing where
               innovation and protection come together in every layer.
