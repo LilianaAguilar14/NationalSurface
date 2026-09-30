@@ -45,6 +45,9 @@ export default function HomePage() {
               installed by JC Safety Surfacing in collaboration with our
               principal contractor, Surface America.
             </p>
+            <p className="mt-5 inline-flex rounded-full bg-[#4eb3d1] px-5 py-2 text-sm font-semibold text-white shadow-sm">
+              Working with Surface America since 2023
+            </p>
           </div>
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
