@@ -41,12 +41,14 @@ export default function HomePage() {
               Our Work with Surface America
             </h1>
             <p className="text-lg leading-relaxed text-blue-950">
-              Explore two recently completed PlayBound Poured-in-Place projects
-              installed by JC Safety Surfacing in collaboration with our
-              principal contractor, Surface America.
+              Here are two recent projects completed in collaboration with our
+              top contractor, Surface America Inc.
             </p>
-            <p className="mt-5 inline-flex rounded-full bg-[#4eb3d1] px-5 py-2 text-sm font-semibold text-white shadow-sm">
-              Working with Surface America since 2023
+            <p className="mt-4 text-lg leading-relaxed text-gray-600">
+              We have been working together since 2023, building a strong
+              relationship based on great communication. We are proud to supply
+              top-quality gear for their projects and are very grateful for our
+              ongoing partnership over the past few years.
             </p>
           </div>
 
